@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia;
+  line-height: 1.5;
+  background-color: #bebebe;
+  color: #323232;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #bd027d;
+  align-items:center;
+  justify-content: space-between;
+}
+
+/* header h1 {
+  padding-left: .8rem;
+  padding-right: .6em;
+} */
+
+header img {
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  font-size: 1.125rem;
+  justify-content:space-between;
+  margin: auto;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+  border: 2px solid #960062;
+  border-radius: 6px;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: .5em 1.5rem;
+  text-transform: uppercase;
+  font-family: PT Sans Narrow;
+
+}
+
+p {
+  border-bottom: 1px solid #323232;
+  padding-bottom: 1px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+
+/* *Typefaces:* `Georgia`, `PT Sans Narrow`
+- *Text sizes:* `1.125rem`, `0.875rem`, `1.25rem`
+- *Colours:* `#000`, `#fff`, #afafaf, #ccc, `#323232`, `#bebebe`, `#bd027d`, `#960062`, `#eccee2`
+- *Gaps:* `1rem`
+- *Margins:* `.5em`, `1.5rem`
+- *Paddings:* `.5em .8em`, `.5em`, `1rem`, `1.5rem`
+- *Border thicknesses:* `2px`
+- *Corner-radii:* `6px`, `1em 0 0 1em` */ */
+
+/* <!-- Header is using display grid property
+the card are a list items similar to Week 12 in which the parent uses the grid property and it's child, just for this case will use the grid property as well because the items inside child are on top of each other.
+Inside the cards you have one item that uses display flex property which is an icon and text beside it
+Footer uses the flex property
+Structure (These hints only give you a sense of structure, you will still need to add other properties to complete your assignment):
+
+header will use display grid with template columns with auto 10rem auto that means it will divide the other elements equally
+header will also use template of rows with auto and 1.5rem which divides the first row equally but gives a specific value to the second
+nav will use a column of 1/-1 and a row of 1 to start from first and finish to the last column. Similar to what was done for a logo on top of banner
+un-ordered list inside the nav will have a flex property (use other properties according to layout and requirements)
+List items inside section will have a display grid as items are on top of each other, columns will be 1 and in this you will need to assign areas so that items inside the sections are properly distributed
+Div container inside the section will have flex property
+Footer will also have flex property --> */
